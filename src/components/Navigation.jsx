@@ -14,6 +14,7 @@ function Navigation() {
         <FaTools className="size-[25px] md:size-[30px] lg:size-[40px]" />
       </button>
       <button 
+        onClick={() => navigate("/projects")}
         color="transparent"
         >
         <FaClipboardList className="size-[25px] md:size-[30px] lg:size-[40px]" />

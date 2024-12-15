@@ -7,7 +7,7 @@ function SkillsModal() {
 
   return (
     <>
-       <div className="flex overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-[90] justify-center items-center w-full sm:inset-0 h-[calc(100%-1rem)] max-h-full">
+      <div className="flex overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-[90] justify-center items-center w-full sm:inset-0 h-[calc(100%-1rem)] max-h-full">
         <div className="fixed top-0 bottom-0 left-0 right-0 bg-black opacity-30"></div>
         <div className="relative flex justify-center w-full h-full max-w-7xl max-h-[80%] p-4">
           <div className="relative w-full p-4 sm:p-10 lg:p-16 xl:p-24 mb-[1rem] rounded-lg bg-color-1 text-center flex flex-col items-center justify-start gap-y-6">
