@@ -75,7 +75,43 @@ const projectsData = [
   },
 ];
 
+const experiencesData = [
+  {
+    id: 'experiences-1',
+    role: 'Laboratory Assistant',
+    description: 'Contract at SEA Laboratory',
+    startDate: 'Jul 2021',
+    endDate: 'Jul 2022',
+    logo: '/src/assets/images/experiences/sea-lab.png',
+  },
+  {
+    id: 'experiences-2',
+    role: 'Front-End Web and Back-End Developer',
+    description: 'Joint Certified Independent Study (SIB) Independent Campus Program batch 2 at Dicoding Indonesia',
+    startDate: 'Feb 2022',
+    endDate: 'Aug 2022',
+    logo: '/src/assets/images/experiences/dicoding.png',
+  },
+  {
+    id: 'experiences-3',
+    role: 'Full Stack Developer',
+    description: 'Full-time at PT. Adikara Nusantara Teknologi',
+    startDate: 'Sept 2022',
+    endDate: 'Oct 2023',
+    logo: '/src/assets/images/experiences/adinusa.png',
+  },
+  {
+    id: 'experiences-4',
+    role: 'Website Developer',
+    description: 'Contract at PT. Deal Dulu International',
+    startDate: 'Oct 2023',
+    endDate: 'Present',
+    logo: '/src/assets/images/experiences/dealdulu.png',
+  }
+];
+
 export { 
   skillsData,
   projectsData,
+  experiencesData,
 };

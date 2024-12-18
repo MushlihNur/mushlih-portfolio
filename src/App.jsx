@@ -1,4 +1,5 @@
 import Navigation from './components/Navigation';
+import ExperiencesModal from './components/modals/ExperiencesModal';
 import ProjectsModal from './components/modals/ProjectsModal';
 import SkillsModal from './components/modals/SkillsModal';
 import { Routes, Route } from 'react-router-dom';
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element="" />
           <Route path="/skills" element={<SkillsModal />} />
           <Route path="/projects" element={<ProjectsModal />} />
+          <Route path="/experiences" element={<ExperiencesModal />} />
         </Routes>
       </div>
     </div>

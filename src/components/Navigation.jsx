@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FaBriefcase, FaClipboardList, FaTools, FaUser } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
@@ -20,6 +19,7 @@ function Navigation() {
         <FaClipboardList className="size-[25px] md:size-[30px] lg:size-[40px]" />
       </button>
       <button 
+        onClick={() => navigate("/experiences")}
         color="transparent"
         >
         <FaBriefcase className="size-[25px] md:size-[30px] lg:size-[40px]" />
