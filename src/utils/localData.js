@@ -1,6 +1,6 @@
-import { FaHtml5 } from "react-icons/fa";
+import { FaGithub, FaHtml5, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaBootstrap, FaCss3, FaLaravel, FaReact } from "react-icons/fa6";
-import { SiJavascript, SiMysql, SiPhp, SiTailwindcss } from "react-icons/si";
+import { SiGmail, SiJavascript, SiMysql, SiPhp, SiTailwindcss } from "react-icons/si";
 import projectErrorImage from '../assets/images/projects/project-error.png';
 
 const skillsData = [
@@ -110,8 +110,36 @@ const experiencesData = [
   }
 ];
 
+const socialMediaData = [
+  {
+    id: 'social-media-1',
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/mushlihnurislam/',
+    icon: FaLinkedin
+  },
+  {
+    id: 'social-media-2',
+    name: 'GitHub',
+    url: 'https://github.com/MushlihNur',
+    icon: FaGithub,
+  },
+  {
+    id: 'social-media-3',
+    name: 'Gmail',
+    url: 'mailto:mushlih.nuris@gmail.com',
+    icon: SiGmail,
+  },
+  {
+    id: 'social-media-4',
+    name: 'Instagram',
+    url: 'https://instagram.com/mushlih.nuris',
+    icon: FaInstagram,
+  }
+];
+
 export { 
   skillsData,
   projectsData,
   experiencesData,
+  socialMediaData,
 };

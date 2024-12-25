@@ -1,4 +1,5 @@
 import Navigation from './components/Navigation';
+import ProfileModal from './components/modals/ProfileModal';
 import ExperiencesModal from './components/modals/ExperiencesModal';
 import ProjectsModal from './components/modals/ProjectsModal';
 import SkillsModal from './components/modals/SkillsModal';
@@ -24,6 +25,7 @@ function App() {
           <Route path="/skills" element={<SkillsModal />} />
           <Route path="/projects" element={<ProjectsModal />} />
           <Route path="/experiences" element={<ExperiencesModal />} />
+          <Route path="/profile" element={<ProfileModal />} />
         </Routes>
       </div>
     </div>

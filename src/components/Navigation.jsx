@@ -25,6 +25,7 @@ function Navigation() {
         <FaBriefcase className="size-[25px] md:size-[30px] lg:size-[40px]" />
       </button>
       <button 
+        onClick={() => navigate("/profile")}
         color="transparent"
         >
         <FaUser className="size-[25px] md:size-[30px] lg:size-[40px]" />
