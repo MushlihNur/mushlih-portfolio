@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <div className="bg-color-1 h-screen bg-[url('./assets/images/background.png')] bg-cover bg-no-repeat p-4 relative">
+    <div className="bg-color-1 h-screen bg-[url('./assets/images/background/background.png')] bg-cover bg-no-repeat p-4 relative">
       <div className="flex items-center justify-center h-full w-full">
         <div className="inline-flex items-stretch gap-2">
           <div className="w-1 bg-[#212A3E]"></div>

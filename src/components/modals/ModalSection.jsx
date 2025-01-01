@@ -62,7 +62,6 @@ function ModalSection({ title, children }) {
               duration: 0.5,
             }}
           >
-            {/* Tombol Close */}
             <button
               onClick={handleClose} 
               className="absolute top-4 right-4 text-color-3 bg-transparent hover:bg-color-3 hover:text-color-4 rounded-full border-2 border-color-3 text-sm w-8 h-8 inline-flex justify-center items-center focus:bg-color-3 focus-within:text-color-4 transition-all duration-300 ease-in-out"

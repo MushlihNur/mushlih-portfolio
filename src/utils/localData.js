@@ -105,7 +105,7 @@ const experiencesData = [
     role: 'Website Developer',
     description: 'Contract at PT. Deal Dulu International',
     startDate: 'Oct 2023',
-    endDate: 'Present',
+    endDate: 'Dec 2024',
     logo: '/src/assets/images/experiences/dealdulu.png',
   }
 ];
