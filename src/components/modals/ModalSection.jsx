@@ -2,6 +2,7 @@ import { IoClose } from "react-icons/io5";
 import { useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 function ModalSection({ title, children }) {
   const navigate = useNavigate();
@@ -39,7 +40,6 @@ function ModalSection({ title, children }) {
           exit="exit" 
           onAnimationComplete={handleAnimationComplete} 
         >
-          {/* Backdrop */}
           <motion.div
             className="fixed top-0 bottom-0 left-0 right-0 bg-black"
             variants={backdropVariants}
@@ -48,9 +48,8 @@ function ModalSection({ title, children }) {
             exit="exit" 
           ></motion.div>
 
-          {/* Modal */}
           <motion.div
-            className="relative flex flex-col w-[90%] max-w-7xl h-full lg:h-[70vh] max-h-[90vh] rounded-lg bg-color-1 p-4 sm:p-6 md:p-6 lg:py-12 lg:px-8 xl:p-20"
+            className="relative flex flex-col w-[90%] max-w-7xl h-full lg:h-[75vh] max-h-[90vh] rounded-lg bg-color-1 p-4 sm:p-6 md:p-6 lg:py-12 lg:px-8 xl:p-20"
             variants={modalVariants}
             initial="hidden"
             animate="visible"
@@ -77,6 +76,11 @@ function ModalSection({ title, children }) {
       )}
     </AnimatePresence>
   );
+}
+
+ModalSection.propTypes = {
+  title: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 }
 
 export default ModalSection;
