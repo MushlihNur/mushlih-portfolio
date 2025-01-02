@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+import { motion } from "framer-motion";
 import { socialMediaData } from "../../utils/localData";
 import { FaFileDownload } from "react-icons/fa";
 import ModalSection from "./ModalSection";
@@ -14,19 +16,28 @@ function ProfileModal() {
         </div>
 
         <div className="w-full lg:w-1/2 grid grid-cols-2 gap-4 justify-items-center">
-          {socialMediaData.map((socialMedia) => (
-            <a
+          {socialMediaData.map((socialMedia, index) => (
+            <motion.a
               key={socialMedia.id}
               href={socialMedia.url}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-[180px] md:w-[200px] h-[120px] sm:h-[140px] flex flex-col items-center justify-center gap-2 sm:gap-4 bg-[#FFFFFF] rounded-2xl shadow-[0_0_16px_rgba(0,0,0,0.15)] text-color-3 hover:bg-color-3 hover:text-white transition-all duration-300 ease-in-out"
+              initial={{ rotateY: 90, opacity: 0 }}
+              whileInView={{ rotateY: 0, opacity: 1 }}
+              viewport={{ once: false }}
+              transition={{ 
+                duration: 0.8,
+                ease: "easeOut",
+                delay: index * 0.05,
+              }}
+              style={{ transformStyle: "preserve-3d" }}
             >
               <socialMedia.icon className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12" />
               <p className="text-sm sm:text-base lg:text-xl font-medium text-center">
-                  {socialMedia?.name}
+                {socialMedia?.name}
               </p>
-            </a>
+            </motion.a>
           ))}
         </div>
       </div>

@@ -63,9 +63,9 @@ function ModalSection({ title, children }) {
           >
             <button
               onClick={handleClose} 
-              className="absolute top-4 right-4 text-color-3 bg-transparent hover:bg-color-3 hover:text-color-4 rounded-full border-2 border-color-3 text-sm w-8 h-8 inline-flex justify-center items-center focus:bg-color-3 focus-within:text-color-4 transition-all duration-300 ease-in-out"
+              className="absolute top-4 right-4 text-color-3 bg-transparent hover:bg-color-3 hover:text-color-4 rounded-full border-2 border-color-3 text-sm w-8 h-8 inline-flex justify-center items-center focus:bg-color-3 focus-within:text-color-4 transition-all duration-300 ease-in-out group"
             >
-              <IoClose className="size-6 text-inherit" />
+              <IoClose className="size-6 text-inherit transform transition-transform duration-300 ease-in-out group-hover:rotate-180" />
             </button>
 
             <h1 className="text-3xl sm:text-4xl xl:text-5xl font-semibold text-center mb-6">{title}</h1>
