@@ -1,6 +1,7 @@
 import { FaGithub, FaHtml5, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaBootstrap, FaCss3, FaLaravel, FaReact } from "react-icons/fa6";
 import { SiGmail, SiJavascript, SiMysql, SiPhp, SiTailwindcss } from "react-icons/si";
+import projectErrorImage from '../assets/images/projects/project-error.png';
 
 const skillsData = [
   {
@@ -55,21 +56,21 @@ const projectsData = [
     id: 'projects-1',
     title: 'API OpenSID',
     description: 'API OpenSID is a capstone project designed to connect a mobile application with the OpenSID database in Sukapura Village, supporting the digitalization of village services.',
-    thumbnail: "/src/assets/images/projects/api-opensid.png",
+    thumbnail: projectErrorImage,
     technologies: ['Laravel', 'MySQL'],
   },
   {
     id: 'projects-2',
     title: 'CMS Report Transaction',
     description: 'CMS Report Transaction is a project aimed at providing a management dashboard for monitoring sales and user data through a website.',
-    thumbnail: "/src/assets/images/projects/cms-report-penjualan.png",
+    thumbnail: projectErrorImage,
     technologies: ['Laravel', 'MySQL', 'Tailwind CSS'],
   },
   {
     id: 'projects-3',
     title: 'Thread Talk',
     description: 'Thread Talk is an online discussion platform that allows users to post text, like, dislike, unlike, undislike, and add comments.',
-    thumbnail: "/src/assets/images/projects/thread-talk.png",
+    thumbnail: projectErrorImage,
     technologies: ['React Js', 'Tailwind CSS', 'CI/CD'],
   },
 ];
