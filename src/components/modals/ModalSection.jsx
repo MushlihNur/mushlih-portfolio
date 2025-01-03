@@ -22,6 +22,7 @@ function ModalSection({ title, children }) {
 
   const handleClose = () => {
     setIsVisible(false);
+    window.history.replaceState(null, "", "/");
   };
 
   const handleAnimationComplete = (definition) => {

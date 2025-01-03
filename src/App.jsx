@@ -37,16 +37,14 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="relative">
-        <Navigation />
-        <Routes>
-          <Route path="/" element="" />
-          <Route path="/skills" element={<SkillsModal />} />
-          <Route path="/projects" element={<ProjectsModal />} />
-          <Route path="/experiences" element={<ExperiencesModal />} />
-          <Route path="/profile" element={<ProfileModal />} />
-        </Routes>
-      </div>
+      <Navigation />
+      <Routes>
+        <Route path="/" element="" />
+        <Route path="/skills" element={<SkillsModal />} />
+        <Route path="/projects" element={<ProjectsModal />} />
+        <Route path="/experiences" element={<ExperiencesModal />} />
+        <Route path="/profile" element={<ProfileModal />} />
+      </Routes>
     </div>
   );
 }
