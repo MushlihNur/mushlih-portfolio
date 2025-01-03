@@ -1,7 +1,15 @@
+// Import semua gambar
+import apiOpenSIDImage from '../assets/images/projects/api-opensid.png';
+import cmsReportTransactionImage from '../assets/images/projects/cms-report-penjualan.png';
+import threadTalkImage from '../assets/images/projects/thread-talk.png';
+import seaLabLogo from '../assets/images/experiences/sea-lab.png';
+import dicodingLogo from '../assets/images/experiences/dicoding.png';
+import adinusaLogo from '../assets/images/experiences/adinusa.png';
+import dealDuluLogo from '../assets/images/experiences/dealdulu.png';
+
 import { FaGithub, FaHtml5, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaBootstrap, FaCss3, FaLaravel, FaReact } from "react-icons/fa6";
 import { SiGmail, SiJavascript, SiMysql, SiPhp, SiTailwindcss } from "react-icons/si";
-import projectErrorImage from '../assets/images/projects/project-error.png';
 
 const skillsData = [
   {
@@ -56,21 +64,21 @@ const projectsData = [
     id: 'projects-1',
     title: 'API OpenSID',
     description: 'API OpenSID is a capstone project designed to connect a mobile application with the OpenSID database in Sukapura Village, supporting the digitalization of village services.',
-    thumbnail: projectErrorImage,
+    thumbnail: apiOpenSIDImage,
     technologies: ['Laravel', 'MySQL'],
   },
   {
     id: 'projects-2',
     title: 'CMS Report Transaction',
     description: 'CMS Report Transaction is a project aimed at providing a management dashboard for monitoring sales and user data through a website.',
-    thumbnail: projectErrorImage,
+    thumbnail: cmsReportTransactionImage,
     technologies: ['Laravel', 'MySQL', 'Tailwind CSS'],
   },
   {
     id: 'projects-3',
     title: 'Thread Talk',
     description: 'Thread Talk is an online discussion platform that allows users to post text, like, dislike, unlike, undislike, and add comments.',
-    thumbnail: projectErrorImage,
+    thumbnail: threadTalkImage,
     technologies: ['React Js', 'Tailwind CSS', 'CI/CD'],
   },
 ];
@@ -82,7 +90,7 @@ const experiencesData = [
     description: 'Contract at SEA Laboratory',
     startDate: 'Jul 2021',
     endDate: 'Jul 2022',
-    logo: '/src/assets/images/experiences/sea-lab.png',
+    logo: seaLabLogo,
   },
   {
     id: 'experiences-2',
@@ -90,7 +98,7 @@ const experiencesData = [
     description: 'Joint Certified Independent Study (SIB) Independent Campus Program batch 2 at Dicoding Indonesia',
     startDate: 'Feb 2022',
     endDate: 'Aug 2022',
-    logo: '/src/assets/images/experiences/dicoding.png',
+    logo: dicodingLogo,
   },
   {
     id: 'experiences-3',
@@ -98,7 +106,7 @@ const experiencesData = [
     description: 'Full-time at PT. Adikara Nusantara Teknologi',
     startDate: 'Sept 2022',
     endDate: 'Oct 2023',
-    logo: '/src/assets/images/experiences/adinusa.png',
+    logo: adinusaLogo,
   },
   {
     id: 'experiences-4',
@@ -106,8 +114,8 @@ const experiencesData = [
     description: 'Contract at PT. Deal Dulu International',
     startDate: 'Oct 2023',
     endDate: 'Dec 2024',
-    logo: '/src/assets/images/experiences/dealdulu.png',
-  }
+    logo: dealDuluLogo,
+  },
 ];
 
 const socialMediaData = [
