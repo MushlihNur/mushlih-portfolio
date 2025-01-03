@@ -1,7 +1,6 @@
 import { FaGithub, FaHtml5, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { FaBootstrap, FaCss3, FaLaravel, FaReact } from "react-icons/fa6";
 import { SiGmail, SiJavascript, SiMysql, SiPhp, SiTailwindcss } from "react-icons/si";
-import projectErrorImage from '../assets/images/projects/project-error.png';
 
 const skillsData = [
   {
