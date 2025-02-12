@@ -12,7 +12,7 @@ function ProfileModal() {
           <div className="w-full bg-[#FFFFFF] text-color-3 p-6 rounded-lg shadow-md text-center">
             <p className="about-me text-left text-sm sm:text-base lg:text-lg">Hi, I am a Front-End Web Developer with a passionate for creating engaging and user-friendly web experiences. In my projects, I enjoy coding and collaborating with teams to create websites that combine creativity and technology. I'm a lover of responsive web design and experiences, and I'm always trying to make the internet a more interesting place. Let's connect and together bring our creative ideas into reality in the world of websites!</p>
           </div>
-          <a href="/src/assets/documents/resume.pdf" target="_blank" download rel="noopener noreferrer" className="w-fit p-1 rounded bg-white flex items-center gap-2 shadow-[0_0_16px_rgba(0,0,0,0.15)] text-color-3 hover:bg-color-3 hover:text-white transition-colors duration-300 ease-in-out">Download Resume <FaFileDownload /></a>
+          <a href="/documents/resume.pdf" target="_blank" download rel="noopener noreferrer" className="w-fit p-1 rounded bg-white flex items-center gap-2 shadow-[0_0_16px_rgba(0,0,0,0.15)] text-color-3 hover:bg-color-3 hover:text-white transition-colors duration-300 ease-in-out">Download Resume <FaFileDownload /></a>
         </div>
 
         <div className="w-full lg:w-1/2 grid grid-cols-2 gap-4 justify-items-center">
