@@ -35,7 +35,7 @@ function ModalSection({ title, children }) {
     <AnimatePresence>
       {isVisible && (
         <motion.div
-          className="flex fixed top-0 right-0 left-0 z-[90] justify-center items-center w-full h-screen"
+          className="flex fixed top-0 right-0 left-0 z-[90] justify-center items-center w-full h-[100dvh]"
           initial="hidden"
           animate="visible"
           exit="exit" 
