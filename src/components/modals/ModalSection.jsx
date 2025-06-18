@@ -50,7 +50,7 @@ function ModalSection({ title, children }) {
           ></motion.div>
 
           <motion.div
-            className="relative flex flex-col w-[90%] max-w-7xl h-full lg:h-[75vh] max-h-[90vh] rounded-lg bg-color-1 p-4 sm:p-6 md:p-6 lg:py-12 lg:px-8 xl:p-20"
+            className="relative flex flex-col w-[90%] max-w-7xl h-full lg:h-[78vh] max-h-[90vh] rounded-lg bg-color-1 p-4 sm:p-6 md:p-6 lg:py-12 lg:px-8 xl:p-20"
             variants={modalVariants}
             initial="hidden"
             animate="visible"
